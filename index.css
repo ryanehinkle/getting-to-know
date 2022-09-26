@@ -1,0 +1,37 @@
+h1 {
+    color:rgb(115, 0, 0);
+    font-family: 'Alfa Slab One';
+    font-size: 70px;
+    -webkit-text-stroke:  1px black;
+    /* Custom font is being used alongside a black text stroke */
+  }
+
+  h3 {
+    color:rgb(115, 0, 0);
+    font-family: 'Alfa Slab One';
+    font-size: 30px;
+    font-style: italic;
+  }
+
+p {
+    color: rgb(151, 151, 151);
+    font-size: 20px;
+    font-family: "Oswald";
+}
+
+ul {
+    color: rgb(151, 151, 151);
+    font-size: 20px;
+    font-family: "Oswald";
+    list-style-type: square;
+    list-style-position: inside;
+    /* Inside style position keeps the points of the bullet list centered with the text */
+}
+
+body {
+    background-image: url('brick.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* Credit to https://www.w3schools.com/html/html_images_background.asp. I used it to learn about background images. */
+  }
