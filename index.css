@@ -33,6 +33,7 @@ ul {
 }
 
 body {
+    background-color: black;
     background-image: url('brick.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
