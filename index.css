@@ -23,6 +23,20 @@ p {
     font-family: "Oswald";
 }
 
+label {
+    color: rgb(151, 151, 151);
+    font-size: 20px;
+    font-family: "Oswald";
+}
+
+progress {
+   border: none;
+}
+
+progress::-webkit-progress-value {
+    background: red;
+}
+
 ul {
     color: rgb(151, 151, 151);
     font-size: 20px;
@@ -34,9 +48,11 @@ ul {
 
 body {
     background-color: black;
-    background-image: url('brick.jpeg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(88, 0, 0, 0.5) ), url('brick.jpeg'); 
+    /* Enhancement #3 I used the linear gradient style to add a red smoky haze to the background */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-blend-mode: lighten();
     /* Credit to https://www.w3schools.com/html/html_images_background.asp. I used it to learn about background images. */
   }
